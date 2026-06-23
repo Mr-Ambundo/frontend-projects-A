@@ -25,3 +25,5 @@ function overviewheader(){
         </div>
     )
 }
+
+export default overviewheader;

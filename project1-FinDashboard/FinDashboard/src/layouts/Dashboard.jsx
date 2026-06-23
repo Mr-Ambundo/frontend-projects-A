@@ -1,23 +1,20 @@
-import navbar from "./Navbar";
-import footer from "./Footer";
-import sidebar from "./Sidebar";
-
+import Navbar from "./Navbar";
+import Sidebar from "./Sidebar";
+import Overview from "../features/overview/Overview";
 
 function dashboard() {
     return (
         <>
             <div className="navbar-dash">
-                <navbar />
+                <Navbar />
             </div>
-            <div>
-                `conditionally render the body elements/features here`
+            <div className="body-dash">
+                <Overview/>
             </div>
             <div className="sidebar-dash">
-                <sidebar />
+                <Sidebar />
             </div>
-            <div className="footer-dash">
-                <footer />
-            </div>
+            
         </>
     )
 }

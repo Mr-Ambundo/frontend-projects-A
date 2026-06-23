@@ -1,6 +1,6 @@
 import React from "react";
 
-export default avatar  = (props) => {
+function Charts (props){
 
     // code for setting the 
 
@@ -10,3 +10,5 @@ export default avatar  = (props) => {
         </>
     )
 }
+
+export default Charts;

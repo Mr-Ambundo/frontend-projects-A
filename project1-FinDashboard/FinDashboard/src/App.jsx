@@ -1,5 +1,5 @@
 import { useState } from 'react'
-//import components from './components/components';
+import Dashboard from './layouts/Dashboard'
 
 
 function App() {
@@ -7,6 +7,7 @@ function App() {
 
   return (
     <>
+      <Dashboard/>
     </>
       )
 }
