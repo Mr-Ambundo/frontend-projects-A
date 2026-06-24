@@ -33,7 +33,7 @@ function overviewBody() {
             id: 1,
             title: "Total Balance",
             summary: "+22% from last month",
-            figures: '$2300.50'
+            figures: '$23300.50'
 
         },
         {

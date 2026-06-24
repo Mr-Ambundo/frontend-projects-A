@@ -18,8 +18,7 @@ function Card(props){
             </div>
 
             <div className="card-icon">
-                `look into this in a minute`
-                <img src="#" alt="Wallet-icon" />
+                <img src="#" alt="W" />
             </div>
             
         </section>

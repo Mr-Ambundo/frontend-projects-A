@@ -1,13 +1,23 @@
+/*nav elements*/
+.navbar-content{
+    position: relative;
+    right: 10%;
+    display: flex;
+}
 /*sidebar elements*/
+a{
+    color: beige;
+    text-decoration: none;
+}
 .sidebar{
     display: flex;
     color:aliceblue;
     flex-direction: column;
-    margin: 0 16px ;
+    margin: 0 20px ;
 }
 
 .sidebar-header{
-    background-color: aqua;
+    border-bottom: 0.01cm solid white;
     display: flex;
     padding: 15px;
     align-items: center;
@@ -16,15 +26,16 @@
 }
 .sidebar-header .logo-title{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 
 .overview-sidebar{
     display: flex;
     align-items: center;
-    background-color: cadetblue;
+    background-color: rgb(18, 23, 57);
     padding: 10px;
+    border-bottom: 0.01cm solid white;
 
 }
 .overview-sidebar .sidebar.nav{
@@ -36,8 +47,9 @@
 .menu-sidebar{
     display: flex;
     flex-direction: column;
-    padding: 10px;
-    background-color: blueviolet;
+    padding: 0 10px;
+    
+    border-bottom: 0.01cm solid white;
 }
 .menu-sidebar .sidebar-nav{
     display: flex;
@@ -48,8 +60,9 @@
 .tools-sidebar{
     display: flex;
     flex-direction: column;
-    padding: 10px;
-    background-color: coral;
+    padding: 0 10px;
+    
+    border-bottom: 0.01cm solid white;
 }
 .tools-sidebar .sidebar-nav{
     display: flex;
@@ -60,8 +73,9 @@
 .footer-sidebar{
     position: relative;
     display: flex;
-    background-color: rgba(97, 169, 145) ;
-    margin:40px;
+    background-color: rgb(16, 23, 49) ;
+    margin-top: 0;
+    margin-bottom: 10px;
     justify-content:center ;
     
 }
@@ -75,7 +89,6 @@
     padding: 25px;
 
 }
-
 .fin-summaries{
     position: relative;
     display: flex;
@@ -83,23 +96,58 @@
     
 }
 .cards-box{
+    display: flex;
     margin: 0 25px;
-    width: 20%;
     flex-direction: row;
-    background-color: aqua;
-    justify-content: space-around;
-    border: solid white ;
-
+    justify-content: space-between;
+    background-color:  rgb(15, 23, 40);
+    border-radius: 10px;
+    padding: 10px;
+    width: 400px;
+    
+    
 }
-
+.card-icon{
+    position: relative;
+    display: flex;
+    top: 15%;
+}
 .card-summary{
     display: flex;
     flex-direction: column;
     padding: 5px;
-
+   
+}
+.card-summary p{
+    font-size: small;
+    padding: 3px;
+}
+.card-summary span{
+    font-size: xx-large;
     
 }
 
+
+
 .dtled-summaries{
     display: flex;
+    justify-content: space-between;
+    padding: 25px ;
+}
+.modal-container{
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    background-color: rgb(20, 20, 11);
+    padding: 10px
+}
+.modal-header{
+    display: flex;
+    justify-content: space-between;
+}
+.modal-extras{
+    padding: 10px 0px;
+}
+.modal-body{
+    padding: 10px 0px;
 }

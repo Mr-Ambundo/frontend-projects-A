@@ -4,18 +4,18 @@ function Modals(props) {
     return (
         <>
         <div className="modal-container">
-            <div className='modalHeader'>
-                <h3>
+            <div className='modal-header'>
+                <p>
                     {props.title}
-                </h3>
+                </p>
                 <span>
                     <a href={props.link}>
                         View all
                     </a>
                 </span>
             </div>
-            {props.summary && <div>{props.summary}</div>}
-            <div className="modalBody">
+            {props.summary && <div className="modal-extras">{props.summary}</div>}
+            <div className="modal-body">
                 {props.face}
             </div>
         </div>
