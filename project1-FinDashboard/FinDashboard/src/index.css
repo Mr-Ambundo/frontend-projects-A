@@ -3,6 +3,7 @@
     display: flex;
     color:aliceblue;
     flex-direction: column;
+    margin: 0 16px ;
 }
 
 .sidebar-header{
@@ -60,7 +61,45 @@
     position: relative;
     display: flex;
     background-color: rgba(97, 169, 145) ;
-    margin:40px 16px;
+    margin:40px;
     justify-content:center ;
     
+}
+
+
+/*overview elements*/
+.main{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+
+}
+
+.fin-summaries{
+    position: relative;
+    display: flex;
+    width: 100%;
+    
+}
+.cards-box{
+    margin: 0 25px;
+    width: 20%;
+    flex-direction: row;
+    background-color: aqua;
+    justify-content: space-around;
+    border: solid white ;
+
+}
+
+.card-summary{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+
+    
+}
+
+.dtled-summaries{
+    display: flex;
 }

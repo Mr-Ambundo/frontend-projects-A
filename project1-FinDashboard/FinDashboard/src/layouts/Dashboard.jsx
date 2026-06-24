@@ -8,12 +8,13 @@ function dashboard() {
             <div className="navbar-dash">
                 <Navbar/>
             </div>
-            <div className="sidebar-dash">
-                <Sidebar/>
-            </div>
             <div className="body-dash">
                 <Overview/>
             </div>
+            <div className="sidebar-dash">
+                <Sidebar/>
+            </div>
+            
         </>
     )
 }

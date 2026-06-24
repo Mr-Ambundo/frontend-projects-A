@@ -3,7 +3,8 @@ import React from "react";
 function Card(props){
 
     return (
-        <>
+        <section className="cards-box">
+            
             <div className="card-summary">
                 <p>
                     {props.title}
@@ -20,7 +21,8 @@ function Card(props){
                 `look into this in a minute`
                 <img src="#" alt="Wallet-icon" />
             </div>
-        </>
+            
+        </section>
     )
 }
 
