@@ -1,0 +1,66 @@
+/*sidebar elements*/
+.sidebar{
+    display: flex;
+    color:aliceblue;
+    flex-direction: column;
+}
+
+.sidebar-header{
+    background-color: aqua;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.sidebar-header .logo-title{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+.overview-sidebar{
+    display: flex;
+    align-items: center;
+    background-color: cadetblue;
+    padding: 10px;
+
+}
+.overview-sidebar .sidebar.nav{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.menu-sidebar{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: blueviolet;
+}
+.menu-sidebar .sidebar-nav{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.tools-sidebar{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: coral;
+}
+.tools-sidebar .sidebar-nav{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 5px;
+}
+
+.footer-sidebar{
+    position: relative;
+    display: flex;
+    background-color: rgba(97, 169, 145) ;
+    margin:40px 16px;
+    justify-content:center ;
+    
+}

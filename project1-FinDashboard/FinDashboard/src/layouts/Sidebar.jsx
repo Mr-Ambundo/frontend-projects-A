@@ -1,10 +1,10 @@
 //import avatar from "../components/Avatar/avatar"
-
+import '../index.css';
 
 function sidebar(){
     return(
-        <>
-        <section>
+        
+        <section className="sidebar">
             <div className="sidebar-header">
                 <span className="logo-title">
                     <img src="#" alt="Logo" />
@@ -20,6 +20,9 @@ function sidebar(){
                     Overview
                 </span>
             </div>
+            <p className='sidebar-titles'>
+                        Menu
+            </p>
             <div className="menu-sidebar">
                 <span className="sidebar-nav">
                     <img src="#" alt="Trans-icon" />
@@ -46,6 +49,9 @@ function sidebar(){
                     Taxes
                 </span>
             </div>
+            <p className='sidebar-titles'>
+                        Tools
+                    </p>
             <div className="tools-sidebar">
                 <span className="sidebar-nav">
                     <img src="#" alt="Export-icon" />
@@ -62,9 +68,9 @@ function sidebar(){
             </div>
             <div className="footer-sidebar">
                 <div className="advert-cta">
-                    <h1>
+                    <p>
                         Upgrade to pro
-                    </h1>
+                    </p>
                     <p>
                         Unlock advanced analytics, custom categories and priority support.
                     </p>
@@ -74,8 +80,6 @@ function sidebar(){
                 </div>
             </div>
         </section>
-        
-        </>
     )
 }
 
