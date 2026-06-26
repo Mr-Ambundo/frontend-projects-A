@@ -4,6 +4,13 @@
     right: 10%;
     display: flex;
 }
+
+.search-box{
+    display: flex;
+}
+.navbar-search{
+    border: none;
+}
 /*sidebar elements*/
 a{
     color: beige;
