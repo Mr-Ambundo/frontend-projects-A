@@ -3,13 +3,39 @@
     position: relative;
     right: 10%;
     display: flex;
+    
 }
-
 .search-box{
     display: flex;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    align-items: center;
+}
+    
+.search-icon{
+    background-color: red;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    margin-left: 8px;
+    padding: 4px;
 }
 .navbar-search{
     border: none;
+    background-color: inherit;
+}
+.notification-icon{
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+.dark-mode{
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
 }
 /*sidebar elements*/
 a{
@@ -35,20 +61,30 @@ a{
     display: flex;
     flex-wrap: wrap;
 }
-
-
+.sidebar-icon{
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
 .overview-sidebar{
     display: flex;
-    align-items: center;
+    vertical-align: top;
     background-color: rgb(18, 23, 57);
     padding: 10px;
     border-bottom: 0.01cm solid white;
 
+    
+
 }
 .overview-sidebar .sidebar.nav{
     display: flex;
-    flex-wrap: wrap;
     
+
+}
+.sidebar-nav p{
+    display: inline-flex;
+    vertical-align:top;
 }
 
 .menu-sidebar{

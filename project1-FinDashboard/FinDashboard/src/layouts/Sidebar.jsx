@@ -7,17 +7,17 @@ function sidebar(){
         <section className="sidebar">
             <div className="sidebar-header">
                 <span className="logo-title">
-                    <img src="#" alt="L" />
+                    <img src="#" className='sidebar-icon'/>
                     FinTrack
                 </span>
                 <span className="menu-icon">
-                    <img src="#" alt="M" />
+                    <img src="#" className='sidebar-icon'/>
                 </span>
             </div>
             <div className="overview-sidebar">
                 <span className="sidebar-nav">
-                    <img src="#" alt="H-ic" />
-                    Overview
+                    <img src="#" className='sidebar-icon'/>
+                    <p>Overview</p>
                 </span>
             </div>
             <p className='sidebar-titles'>
@@ -25,27 +25,27 @@ function sidebar(){
             </p>
             <div className="menu-sidebar">
                 <span className="sidebar-nav">
-                    <img src="#" alt="Tns-ic" />
+                    <img src="#" className='sidebar-icon'/>
                     Transactions
                 </span>
                 <span className="sidebar-nav">
-                    <img src="#" alt="Budget-icon" />
+                    <img src="#" className='sidebar-icon'/>
                     Budget
                 </span>
                 <span className="sidebar-nav">
-                    <img src="#" alt="I-ic" />
+                    <img src="#" className='sidebar-icon'/>
                     Investments
                 </span>
                 <span className="sidebar-nav">
-                    <img src="#" alt="G-ic" />
+                    <img src="#" className='sidebar-icon'/>
                     Goals
                 </span>
                 <span className="sidebar-nav">
-                    <img src="#" alt="R-ic" />
+                    <img src="#" className='sidebar-icon'/>
                     Reports
                 </span>
                 <span className="sidebar-nav">
-                    <img src="#" alt="Ter-ic" />
+                    <img src="#" className='sidebar-icon'/>
                     Taxes
                 </span>
             </div>
@@ -54,15 +54,15 @@ function sidebar(){
                     </p>
             <div className="tools-sidebar">
                 <span className="sidebar-nav">
-                    <img src="#" alt="Exp-ic" />
+                    <img src="#" className='sidebar-icon'/>
                     Export Data
                 </span>
                 <span className="sidebar-nav">
-                    <img src="#" alt="Imp-ic" />
+                    <img src="#" className='sidebar-icon'/>
                     Import Data
-                </span>s
+                </span>
                 <span className="sidebar-nav">
-                    <img src="#" alt="Set-ic" />
+                    <img src="#" className='sidebar-icon'/>
                     Settings
                 </span>
             </div>
