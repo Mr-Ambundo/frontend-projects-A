@@ -1,7 +1,7 @@
 //import avatar from "../components/Avatar/avatar"
 import '../index.css';
 
-function sidebar(){
+function Sidebar(){
     return(
         
         <section className="sidebar">
@@ -83,4 +83,4 @@ function sidebar(){
     )
 }
 
-export default sidebar;
+export default Sidebar;

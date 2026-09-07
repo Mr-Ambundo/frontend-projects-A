@@ -1,0 +1,32 @@
+cat > index.html << 'EOF'
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Project 2 - Infra Stack</title>
+    <style>
+        body { 
+            font-family: 'Courier New', monospace; 
+            text-align: center; 
+            padding: 50px; 
+            background: #1a1a2e; 
+            color: #00ff88; 
+        }
+        h1 { font-size: 3rem; }
+        .highlight { color: #ff6b6b; }
+        .sub { color: #aaa; margin-top: 30px; }
+    </style>
+</head>
+<body>
+    <h1>⚙️ Project 2: Infra <span class="highlight">Queue B</span></h1>
+    <p>Containerized with Docker • Deployed with Terraform</p>
+    <p class="sub">🔥 Ready for EKS + Prometheus + Grafana</p>
+    <p>Visits: <span id="counter">0</span></p>
+    <script>
+        let count = localStorage.getItem('visits') || 0;
+        count++;
+        localStorage.setItem('visits', count);
+        document.getElementById('counter').textContent = count;
+    </script>
+</body>
+</html>
+EOF
